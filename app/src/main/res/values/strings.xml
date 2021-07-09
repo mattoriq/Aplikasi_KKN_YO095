@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AplikasiKKN</string>
+    <string name="video_example">Video example</string>
+    <string name="page_title">Page Title</string>
+    <string name="page_desc">this is the basic description of the article</string>
+    <string name="content_descriptor">content descriptor</string>
+    <string name="main_page">Main Page</string>
+</resources>

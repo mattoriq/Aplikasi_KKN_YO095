@@ -2,7 +2,13 @@
     <string name="app_name">AplikasiKKN</string>
     <string name="video_example">Video example</string>
     <string name="page_title">Page Title</string>
-    <string name="page_desc">this is the basic description of the article</string>
+    <string name="page_desc">this is the basic description of the article test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test</string>
     <string name="content_descriptor">content descriptor</string>
     <string name="main_page">Main Page</string>
+    <string name="title_1">Implementasi Pemilahan Sampah</string>
+    <string name="title_2">Cara Membuat Magot Sampah</string>
+    <string name="title_3">Jenis-jenis sampah</string>
+    <string name="title_4">Perbedaan sampah cair dan sampah padat</string>
+    <string name="mountain">mountain</string>
+    <string name="article">Artikel</string>
 </resources>

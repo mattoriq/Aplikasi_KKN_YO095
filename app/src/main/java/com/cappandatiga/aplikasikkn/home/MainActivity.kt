@@ -5,7 +5,6 @@ package com.cappandatiga.aplikasikkn.home
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import com.cappandatiga.aplikasikkn.R
 import com.cappandatiga.aplikasikkn.databinding.ActivityMainBinding
 import com.cappandatiga.aplikasikkn.pages.PageFourActivity
@@ -24,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             content2.title.text = getString(R.string.title_2)
             content3.title.text = getString(R.string.title_3)
             content4.title.text = getString(R.string.title_4)
-//            content1.thumbnail.setImageDrawable(R.drawable.mountain)
+            content1.thumbnail.setImageResource(R.drawable.thumb1)
             content1.cardView.setOnClickListener {
                 val intent = Intent(this@MainActivity, PageOneActivity::class.java)
                 startActivity(intent)

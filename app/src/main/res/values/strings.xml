@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AplikasiKKN</string>
     <string name="video_example">Video example</string>
@@ -5,10 +6,74 @@
     <string name="page_desc">this is the basic description of the article test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test</string>
     <string name="content_descriptor">content descriptor</string>
     <string name="main_page">Main Page</string>
-    <string name="title_1">Implementasi Pemilahan Sampah</string>
-    <string name="title_2">Cara Membuat Magot Sampah</string>
-    <string name="title_3">Jenis-jenis sampah</string>
-    <string name="title_4">Perbedaan sampah cair dan sampah padat</string>
+    <string name="title_1">Jenis-Jenis Sampah</string>
+    <string name="title_2">Title 2</string>
+    <string name="title_3">Title 3</string>
+    <string name="title_4">Title 4</string>
     <string name="mountain">mountain</string>
     <string name="article">Artikel</string>
+    <string name="art1_txt1">
+        1. Sampah Berdasarkan Bentuknya
+\n a. Sampah Padat
+\n \t Sampah padat adalah sisa hasil kegiatan industri ataupun aktivitas domestik yang berbentuk padat. Contoh dari sampah padat diantaranya yaitu kertas, plastik, serbuk besi, serbuk kayu, kain, dan lainnya.
+\n b. Sampah Cair
+\n \t Sampah cair adalah sisa hasil buangan proses produksi atau aktivitas domestik yang berupa cairan. Sampah cair dapat berupa air beserta bahan-bahan buangan lain yang tercampur (tersuspensi) maupun terlarut dalam air.
+\n \n2. Sampah Berdasarkan Sifatnya
+\n a. Organik
+\n \t Secara kimiawi, sampah organik merupakan segala limbah yang mengandung unsur karbon sehingga meliputi tidak hanya limbah dari mahluk hidup seperti kotoran hewan dan manusia, sisa makanan, dan sisa- sisa tumbuhan mati, tetapi juga kertas, plastik, dan karet. Namun, sebagian besar masyarakat mengenal sampah organik sebagai limbah yang hanya berasal dari mahluk hidup (alami) yang mudah membusuk.
+\n b. Anorganik
+\n \t Berbeda dengan sampah organik, sampah anorganik meliputi sampah yang tidak mengandung unsur karbon, seperti logam (Contoh:Besi dari mobil bekas atau perkakas, dan aluminium dari kaleng bekas atau peralatan rumah tangga), kaca, dan pupuk anorganik (misalnya yang mengandung unsur nitrogen dan fosfor). Limbah-limbah ini tidak memiliki unsur karbon sehingga tidak dapat diurai oleh mikroorganisme. Namun, sama halnya dengan pengertian sampah organik pada umumnya, sampah anorganik lebih dikenal oleh masyarakat sebagai segala limbah yang tidak dapat atau sulit terurai/busuk secara alami oleh mikroorganisme pengurai (plastik dan karet juga termasuk dalam pengertian ini).
+\n c. B3
+\n \t Kata B3 merupakan akronim dari bahan beracun dan berbahaya. Oleh karena itu, Sampah B3 dapat diartikan sebagai suatu buangan atau limbah yang sifat dan konsentrasinya mengandung zat yang beracun dan berbahaya sehingga secara langsung maupun tidak langsung dapat merusak lingkungan, mengganggu kesehatan, dan mengancam kelangsungan hidup manusia serta organisme lainya. Contoh dari sampah B3 yang dihasilkan rumah tangga domestik di antaranya bekas pengharum ruangan, pemutih pakaian, deterjen pakaian, pembersih kamar mandi, pembesih kaca/jendela, pembersih lantai, pengkilat kayu, pembersih oven, pembasmi serangga, lem perekat, hair spray, dan batu baterai.
+\n \n3. Sampah Berdasarkan Cara Pembuangannya
+\n a. Mudah Terbakar
+    </string>
+    <string name="art1_txt2">
+        \t Contoh Sampah : Sisa makanan ; Serpihan kayu, plastik, kertas ukuran kecil ; Kain ; Bungkus kotor, Barang-barang kecil, dan lainnya
+        \n \t Cara Pembuangan : Dapat dibuang langsung ke tempah sampah
+        \n \n b. Tidak Mudah Terbakar
+    </string>
+    <string name="art1_txt3">
+        \t Contoh Sampah : Kaleng, Alat elektronik, Logam, Mainan, dan lainnya
+        \n \t Cara Pembuangan : Pisahkan dari yang lain dan bungkus ke dalam satu kantung plastik. (*Bungkus benda tajam seperti pisau dengan kertas sebelum dibuang)
+        \n \n c. Plastik
+    </string>
+    <string name="art1_txt4">
+        \t Contoh Sampah : Botol plastic, Wadah plastik, Kantung plastik (*Dalam kondisi bersih)
+        \n \t Cara Pembuangan : Pastikan bersih dari kotoran sebelum dibuang - > kumpulkan jadi satu kantung plastik
+        \n \n d. Beling atau Kaca
+    </string>
+    <string name="art1_txt5">
+        \t Contoh Sampah : Botol kaca, Gelas kaca, Pecahan beling
+        \n \t Cara Pembuangan : Pisahkan dari sampah lain -> Bungkus jadi satu plastik (*Bungkus terlebih dahulu beling pecah dengan kertas / koran dan beri label)
+        \n \n e. Kertas dan Karton
+    </string>
+    <string name="art1_txt6">
+        \t Contoh Sampah : Kertas, Koran, Karton, Buku, Majalah, dan semacamnya
+        \n \t Cara Pembuangan : Pastikan tidak ternodai -> Bungkus jadi satu plastik / Ikat dengan tali
+        \n \n f. Kayu, Daun, Ranting
+    </string>
+    <string name="art1_txt7">
+        \t Contoh Sampah : Botol kaca, Gelas kaca, Pecahan beling
+        \n \t Cara Pembuangan : Kumpulkan ke tempat yang sudah ditentukan (Dekat Bak Sampah dan semacamnya)
+        \n \n g. Ukuran Besar
+    </string>
+    <string name="art1_txt8">
+        \t Contoh Sampah : Spring bed, kursi, lemari, meja, dan semacamnya
+        \n \t Cara Pembuangan : Harap hubungi terlebih dahulu petugas PTS sebelum pembuangan / Jual ke Toko Barang Bekas
+        \n \n h. Berbahaya
+    </string>
+    <string name="art1_txt9">
+        \t Contoh Sampah : Tabung Gas, Korek, Petasan, dan semacamnya
+        \n \t Cara Pembuangan : Pisahkan dari sampah lainnya -> jadikan satu kantung plastik -> jangan lupa beri tanda seperti label barang berbahaya di plastik agar petugas PTS tahu
+    </string>
+    <string name="back_button">back button</string>
+    <string name="mudah_terbakar">mudah terbakar</string>
+    <string name="tidak_mudah_terbakar">tidak mudah terbakar</string>
+    <string name="plastik">plastik</string>
+    <string name="kaca">kaca</string>
+    <string name="kertas">kertas</string>
+    <string name="daun">daun</string>
+    <string name="besar">sampah besar</string>
+    <string name="banner">banner image</string>
 </resources>

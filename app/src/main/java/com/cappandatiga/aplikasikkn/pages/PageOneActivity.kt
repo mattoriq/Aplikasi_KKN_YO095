@@ -19,6 +19,10 @@ class PageOneActivity : AppCompatActivity() {
             title.text = getString(R.string.title_1)
             collapsingBar.setCollapsedTitleTextColor(Color.rgb(255,255,255))
             collapsingBar.setExpandedTitleColor(Color.TRANSPARENT)
+            toolbar.setNavigationIcon(R.drawable.ic_baseline_arrow_back_24)
+            toolbar.setNavigationOnClickListener {
+                onSupportNavigateUp()
+            }
         }
     }
 

@@ -11,10 +11,6 @@ class PageOneActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityPageOneBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        supportActionBar?.apply {
-            setDisplayHomeAsUpEnabled(true)
-            title = getString(R.string.title_1)
-        }
         with(binding){
             title.text = getString(R.string.title_1)
             collapsingBar.setCollapsedTitleTextColor(Color.rgb(255,255,255))

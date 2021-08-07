@@ -1,5 +1,3 @@
-
-
 package com.cappandatiga.aplikasikkn.home
 
 import android.content.Intent
@@ -7,10 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.cappandatiga.aplikasikkn.R
 import com.cappandatiga.aplikasikkn.databinding.ActivityMainBinding
-import com.cappandatiga.aplikasikkn.pages.PageFourActivity
-import com.cappandatiga.aplikasikkn.pages.PageOneActivity
-import com.cappandatiga.aplikasikkn.pages.PageThreeActivity
-import com.cappandatiga.aplikasikkn.pages.PageTwoActivity
+import com.cappandatiga.aplikasikkn.pages.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,7 +18,10 @@ class MainActivity : AppCompatActivity() {
             content2.title.text = getString(R.string.title_2)
             content3.title.text = getString(R.string.title_3)
             content4.title.text = getString(R.string.title_4)
+            content5.title.text = getString(R.string.title_5)
+            content6.title.text = getString(R.string.title_6)
             content1.thumbnail.setImageResource(R.drawable.thumb1)
+            content2.thumbnail.setImageResource(R.drawable.thumb2)
             content1.cardView.setOnClickListener {
                 val intent = Intent(this@MainActivity, PageOneActivity::class.java)
                 startActivity(intent)
@@ -38,6 +36,14 @@ class MainActivity : AppCompatActivity() {
             }
             content4.cardView.setOnClickListener {
                 val intent = Intent(this@MainActivity, PageFourActivity::class.java)
+                startActivity(intent)
+            }
+            content5.cardView.setOnClickListener {
+                val intent = Intent(this@MainActivity, PageFiveActivity::class.java)
+                startActivity(intent)
+            }
+            content6.cardView.setOnClickListener {
+                val intent = Intent(this@MainActivity, PageSixActivity::class.java)
                 startActivity(intent)
             }
         }

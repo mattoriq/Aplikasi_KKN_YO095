@@ -7,9 +7,11 @@
     <string name="content_descriptor">content descriptor</string>
     <string name="main_page">Main Page</string>
     <string name="title_1">Jenis-Jenis Sampah</string>
-    <string name="title_2">Title 2</string>
+    <string name="title_2">Peluang Bisnis dari Pengolahan Sampah</string>
     <string name="title_3">Title 3</string>
     <string name="title_4">Title 4</string>
+    <string name="title_5">Title 5</string>
+    <string name="title_6">Title 6</string>
     <string name="mountain">mountain</string>
     <string name="article">Artikel</string>
     <string name="art1_txt1">
@@ -67,6 +69,44 @@
         \t Contoh Sampah : Tabung Gas, Korek, Petasan, dan semacamnya
         \n \t Cara Pembuangan : Pisahkan dari sampah lainnya -> jadikan satu kantung plastik -> jangan lupa beri tanda seperti label barang berbahaya di plastik agar petugas PTS tahu
     </string>
+    <string name="art2_txt1">
+        \t Sampah merupakan salah satu permasalahan terbesar di Indonesia. Pada tahun 2020 Indonesia menghasilkan sampah sebanyak 67,8 juta ton artinya sampah yang diproduksi adalah sebanyak 185.753 ton setiap harinya. Penanganan sampah di Indonesia saat ini masih jauh dari kata cukup. Banyak sampah yang hanya dibakar, mengalir di selokan, sungai, bahkan di pantai dan lautan yang mencemari dan merusak lingkungan. Faktanya, penyumbang terbesar dari jutaan ton sampah tersebut adalah jenis sampah rumah tangga.
+        \n \t Di balik fakta tersebut, sampah sebenarnya memiliki peluang bisnis untuk dapat dimanfaatkan dan dikelola. Sampah yang dihasilkan oleh rumah tangga dapat disalurkan ke bank sampah atau pengepul untuk  didaur ulang. Penyaluran sampah ini tentunya setidaknya kita dapat berkontribusi untuk memilah sampah yang kita hasilkan sehari-harinya. Selain itu, pengolahan sampah sebenarnya juga  memiliki peluang bisnis yang baik. Berikut adalah beberapa alternatif bisnis pengelolaan sampah yang dapat dilakukan:
+        \n \n <b>1. Sampah Organik menjadi Pupuk Kompos</b>
+    </string>
+    <string name="art2_txt2">
+        \n \t Pupuk kompos dari sisa makanan membutuhkan bahan dasar yang murah meriah, bahkan gratis. Selain itu, pupuk kompos memiliki peluang dari segi pemasaran karena pangsa pasar yang besar. Peluang besar ini khususnya ada pada daerah-daerah yang memiliki lahan pertanian atau perkebunan yang luas. Selain itu, pupuk kompos juga dapat dipasarkan pada para pecinta tanaman hias.
+        \n \t Informasi lebih lanjut: https://bisnisukm.com/peluang-bisnis-mengolah-sampah-jadi-pupuk-kompos.html
+        \n \n <b>2.	Sampah Organik menjadi Pakan Ikan</b>
+    </string>
+    <string name="art2_txt3">
+        \n \t Sampah organik yang ada dapat diolah menjadi maggot. Maggot merupakan jenis belatung yang mengandung protein tinggi sehingga baik untuk dijadikan pakan ikan. Dengan pakan alami yang diproduksi sendiri, ikan yang dihasilkan pun merupakan ikan yang sehat dan higienis yang memiliki peluang untuk menembus pasar global. Jenis ikan yang dibudidaya adalah ikan mas, nila, koi, dan juga ikan gurame. Ikan-ikan ini dapat dipesan baik melalui WhatsApp maupun telepon. Di masa pandemi saat ini, pemasaran ikan yang dibudidayakan secara online melalui berbagai platform belanja online.
+        \n \t Informasi lebih lanjut:
+        \n \t <a href='https://ekonomi.bisnis.com/read/20200102/99/1186488/sampah-organik-ini-bisa-jadi-pakan-ikan-berprotein-tinggi'>https://ekonomi.bisnis.com/read/20200102/99/1186488/sampah-organik-ini-bisa-jadi-pakan-ikan-berprotein-tinggi</a>
+        \n \t https://bosternak.com/ternak-maggot-bsf-modern-untuk-pemula-agar-tidak-salah-langkah
+        \n \n <b>3.	Daur Ulang Sampah Plastik PETE</b>
+    </string>
+    <string name="art2_txt4">
+        \n \t Salah satu bisnis daur ulang sampah yang banyak dilakukan hingga saat ini adalah daur ulang sampah plastik khususnya plastik jenis PETE (polyethylene terephthalate). Jenis plastik PETE memiliki nilai ekonomi yang tinggi dibandingkan dengan jenis plastik lain karena dapat  didaur ulang menjadi bahan baku kembali. Plastik PETE seringkali digunakan untuk kemasan berbagai makanan dan minuman. Jenis plastik ini hanya dapat digunakan sekali saja sehingga jumlahnya pun sangat banyak.
+        \n \t Informasi lebih lanjut: https://klikhijau.com/read/bisnis-daur-ulang-sampah-plastik-semakin-menggiurkan/
+        \n \n <b>4. Kerajinan Sampah Anorganik</b>
+    </string>
+    <string name="art2_txt5">
+        \n \t Kreativitas merupakan salah satu modal untuk melakukan bisnis. Kerajinan dari sampah anorganik juga memiliki kelebihan karena dibuat dari bahan baku yang jauh lebih murah dan tidak dapat rusak karena membusuk. Pangsa pasarnya juga luas, terlebih lagi untuk kota wisata seperti Yogyakarta. Salah satu contohnya adalah pengrajin daur ulang sampah anorganik dari Dusun Triharjo yaitu Umi Maesyaroh. Ia mendaur ulang berbagai sampah anorganik seperti kardus bekas, botol minuman, dan juga sedotan bekas menjadi kerajinan yang cantik.
+        \n \t Informasi lebih lanjut: https://mediacenter.slemankab.go.id/limbah-botol-plastik-mampu-disulapnya-jadi-bunga-nan-cantik/
+        \n \n <b>5.	Daur Ulang Sampah Anorganik menjadi Material Bangunan</b>
+    </string>
+    <string name="art2_txt6">
+        \n \t Kepedulian terhadap lingkungan dapat diwujudkan dengan sikap tindakan non-konsumtif dan bertanggung jawab atas apa yang kita lakukan, terutama dalam produksi sampah.
+        \n \t Contoh dari bisnis mengenai pemanfaatan sampah menjadi material bangunan salah satunya adalah dari Rawhaus. Produksi sampah yang tinggi juga ada pada proses pembangunan rumah. Alasan tersebutlah yang membuat Cassandra memutuskan untuk membuka usaha yang terbilang baru di Indonesia yaitu membangun rumah dari material daur ulang dengan tujuan memanfaatkan dan mengurangi jumlah sampah yang ada. Sampah yang digunakan antara lain adalah styrofoam dan sampah plastik.
+        \n \t Informasi lebih lanjut:
+        \n \t https://www.rawhaus-id.com/
+        \n \t https://www.youtube.com/watch?v=LCdgJrn82-E
+        \n \t Pemasaran produk dari pengelolaan sampah seperti kompos, kerajinan, tas, dan sejenisnya dalam situasi pandemi seperti saat ini tetap dapat dilakukan dengan melakukan penjualan di berbagai platform belanja online seperti tokopedia, shopee, lazada dan juga platform belanja online lainnya.
+        \n \n Referensi:
+        \n \t Setiawan, Anton. 2021. “Membenahi Tata Kelola Sampah Nasional”. Diakses pada 16 Juli 2021. https://indonesia.go.id/.
+
+    </string>
     <string name="back_button">back button</string>
     <string name="mudah_terbakar">mudah terbakar</string>
     <string name="tidak_mudah_terbakar">tidak mudah terbakar</string>
@@ -76,4 +116,5 @@
     <string name="daun">daun</string>
     <string name="besar">sampah besar</string>
     <string name="banner">banner image</string>
+    <string name="pupuk_kompos">pupuk kompos</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.cappandatiga.aplikasikkn.pages
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.cappandatiga.aplikasikkn.R
@@ -10,12 +11,14 @@ class PageTwoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityPageTwoBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        supportActionBar?.apply {
-            setDisplayHomeAsUpEnabled(true)
-            title = getString(R.string.title_2)
-        }
         with(binding){
             title.text = getString(R.string.title_2)
+            collapsingBar.setCollapsedTitleTextColor(Color.rgb(255,255,255))
+            collapsingBar.setExpandedTitleColor(Color.TRANSPARENT)
+            toolbar.setNavigationIcon(R.drawable.ic_baseline_arrow_back_24)
+            toolbar.setNavigationOnClickListener {
+                onSupportNavigateUp()
+            }
         }
     }
 

@@ -29,6 +29,14 @@
             android:id="@+id/content_4"
             layout="@layout/page_view"/>
 
+        <include
+            android:id="@+id/content_5"
+            layout="@layout/page_view"/>
+
+        <include
+            android:id="@+id/content_6"
+            layout="@layout/page_view"/>
+
     </LinearLayout>
 
 </ScrollView>

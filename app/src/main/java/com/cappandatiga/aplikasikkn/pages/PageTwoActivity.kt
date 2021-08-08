@@ -12,6 +12,7 @@ class PageTwoActivity : AppCompatActivity() {
         val binding = ActivityPageTwoBinding.inflate(layoutInflater)
         setContentView(binding.root)
         with(binding){
+            root.setBackgroundColor(Color.WHITE)
             title.text = getString(R.string.title_2)
             collapsingBar.setCollapsedTitleTextColor(Color.rgb(255,255,255))
             collapsingBar.setExpandedTitleColor(Color.TRANSPARENT)

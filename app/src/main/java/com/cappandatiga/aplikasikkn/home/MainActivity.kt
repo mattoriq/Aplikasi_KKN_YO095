@@ -1,8 +1,11 @@
 package com.cappandatiga.aplikasikkn.home
 
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.core.content.ContextCompat
 import com.cappandatiga.aplikasikkn.R
 import com.cappandatiga.aplikasikkn.databinding.ActivityMainBinding
 import com.cappandatiga.aplikasikkn.pages.*
@@ -12,8 +15,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        val colorDrawable = ColorDrawable(Color.parseColor("#66bb6a"))
+        supportActionBar?.setBackgroundDrawable(colorDrawable)
 
         with(binding){
+            root.setBackgroundColor(Color.WHITE)
             content1.title.text = getString(R.string.title_1)
             content2.title.text = getString(R.string.title_2)
             content3.title.text = getString(R.string.title_3)

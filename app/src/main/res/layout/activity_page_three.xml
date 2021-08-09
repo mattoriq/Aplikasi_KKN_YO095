@@ -1,34 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     tools:context=".pages.PageThreeActivity">
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/page_title"
-        android:textStyle="bold"
-        android:textSize="24sp"/>
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:fitsSystemWindows="true">
 
-    <TextView
-        android:id="@+id/description"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        app:layout_constraintTop_toBottomOf="@id/title"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/page_desc"
-        android:textColor="@color/gray"
-        android:textSize="14sp"/>
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:contentScrim="@color/primary"
+            app:title="@string/title_3">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/thumb3"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/banner" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            tools:context=".pages.PageOneActivity">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="32dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="@string/title_3"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@color/dark_gray"/>
+
+            <ImageView
+                android:id="@+id/pic_1"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:src="@drawable/caca1"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/artikel_caca"/>
+
+            <ImageView
+                android:id="@+id/pic_2"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:contentDescription="@string/artikel_caca"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                android:src="@drawable/caca2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pic_1" />
+
+            <ImageView
+                android:id="@+id/pic_3"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:contentDescription="@string/artikel_caca"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:src="@drawable/caca3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pic_2" />
+
+            <ImageView
+                android:id="@+id/pic_4"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:contentDescription="@string/artikel_caca"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:src="@drawable/caca4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pic_3" />
+
+            <ImageView
+                android:id="@+id/pic_5"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:contentDescription="@string/artikel_caca"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:src="@drawable/caca5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pic_4" />
+
+            <ImageView
+                android:id="@+id/pic_6"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:contentDescription="@string/artikel_caca"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:src="@drawable/caca6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pic_5" />
+
+            <ImageView
+                android:id="@+id/pic_7"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:contentDescription="@string/artikel_caca"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:src="@drawable/caca7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pic_6" />
+
+            <ImageView
+                android:id="@+id/pic_8"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:contentDescription="@string/artikel_caca"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:src="@drawable/caca8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pic_7" />
+
+            <ImageView
+                android:id="@+id/pic_9"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:contentDescription="@string/artikel_caca"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:src="@drawable/caca9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pic_8" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

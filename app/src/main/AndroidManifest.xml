@@ -14,7 +14,10 @@
         <activity android:name=".pages.PageSixActivity" />
         <activity android:name=".pages.PageFiveActivity" />
         <activity android:name=".pages.PageFourActivity" />
-        <activity android:name=".pages.PageThreeActivity" />
+        <activity
+            android:name=".pages.PageThreeActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".pages.PageTwoActivity"
             android:theme="@style/AppTheme.NoActionBar"

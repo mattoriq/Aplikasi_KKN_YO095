@@ -8,7 +8,7 @@
     <string name="main_page">Main Page</string>
     <string name="title_1">Jenis-Jenis Sampah</string>
     <string name="title_2">Peluang Bisnis dari Pengolahan Sampah</string>
-    <string name="title_3">Title 3</string>
+    <string name="title_3">Jenis Plastik dan Cara Mengurangi Sampah Plastik</string>
     <string name="title_4">Title 4</string>
     <string name="title_5">Title 5</string>
     <string name="title_6">Title 6</string>
@@ -117,4 +117,5 @@
     <string name="besar">sampah besar</string>
     <string name="banner">banner image</string>
     <string name="pupuk_kompos">pupuk kompos</string>
+    <string name="artikel_caca">artikel caca</string>
 </resources>

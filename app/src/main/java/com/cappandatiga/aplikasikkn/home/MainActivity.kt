@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             content6.title.text = getString(R.string.title_6)
             content1.thumbnail.setImageResource(R.drawable.thumb1)
             content2.thumbnail.setImageResource(R.drawable.thumb2)
+            content3.thumbnail.setImageResource(R.drawable.thumb3)
             content1.cardView.setOnClickListener {
                 val intent = Intent(this@MainActivity, PageOneActivity::class.java)
                 startActivity(intent)

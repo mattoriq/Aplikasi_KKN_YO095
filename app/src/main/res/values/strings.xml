@@ -118,4 +118,12 @@
     <string name="banner">banner image</string>
     <string name="pupuk_kompos">pupuk kompos</string>
     <string name="artikel_caca">artikel caca</string>
+    <string name="about_app">Tentang Aplikasi</string>
+    <string name="about_txt">
+        Aplikasi ini dibuat dalam rangka pengabdian KKN-PPM UGM 2021 Unit YO-095 di Lokasi Padukuhan Mancasan-Kleben, Sleman, Daerah Istimewa Yogyakarta.
+        \n\nUnit KKN kami membahas tema sampah, dan aplikasi ini menyediakan artikel-artikel yang menyimpan informasi berguna tentang sampah, mulai dari jenis hingga pemanfaatan sampah.
+    </string>
+    <string name="logo_kkn">logo KKN</string>
+    <string name="logo_ugm">logo UGM</string>
+    <string name="kkn_ugm">KKN-PPM UGM 2021</string>
 </resources>

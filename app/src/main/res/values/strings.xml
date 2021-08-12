@@ -9,7 +9,7 @@
     <string name="title_1">Jenis-Jenis Sampah</string>
     <string name="title_2">Peluang Bisnis dari Pengolahan Sampah</string>
     <string name="title_3">Jenis Plastik dan Cara Mengurangi Sampah Plastik</string>
-    <string name="title_4">Title 4</string>
+    <string name="title_4">Penanganan Limbah</string>
     <string name="title_5">Title 5</string>
     <string name="title_6">Title 6</string>
     <string name="mountain">mountain</string>
@@ -105,8 +105,53 @@
         \n \t Pemasaran produk dari pengelolaan sampah seperti kompos, kerajinan, tas, dan sejenisnya dalam situasi pandemi seperti saat ini tetap dapat dilakukan dengan melakukan penjualan di berbagai platform belanja online seperti tokopedia, shopee, lazada dan juga platform belanja online lainnya.
         \n \n Referensi:
         \n \t Setiawan, Anton. 2021. “Membenahi Tata Kelola Sampah Nasional”. Diakses pada 16 Juli 2021. https://indonesia.go.id/.
-
     </string>
+    <string name="art4_txt1">
+        <b>1) Pengolahan limbah rumah tangga</b>
+        \n \t Limbah rumah tangga dapat dibedakan menjadi 3 jenis yaitu:
+        \n 1. Sampah RT
+        \n 2. Air buangan
+        \n 3. Feses/Tinja
+        \n <b>Cara :</b>
+        \n <b>1) Pemanfaatan sampah </b>
+        \n \t Diperlukan kesadaran untuk memisahkan sampah organik (sisa bahan makanan, kulit buah, dll) dan anorganik (plastik, kaleng, dll).
+        \n <b>2) Pemanfaatan grey water </b>
+        \n \t Grey water merupakan air sabun bekas kegiatan rumah tangga seperti mencuci, mengepel dsb. Grey water dapat digunakan kembali untuk menyiram tanaman (air tidak mengandung detergen yang keras, pemutih dan zat kimia lainnya)
+        \n \n <b>1) Pengolahan limbah cair</b>
+    </string>
+    <string name="art4_txt2">
+        \n \t Pengolahan limbah cair bertujuan untuk mengurai kandungan bahan pencemar dalam air.
+        \n <b>Cara: </b>
+        \n <b>1) Pengolahan fisik</b>
+        \n \t Pengolahan ini terutama ditujukan untuk air limbah yang tidak larut (mengandung padatan) sehingga menggunakan metode ini untuk pemisahan ( penyaringan)
+        \n <b>2) Pengolahan kimia</b>
+        \n \t Pengolahan secara kimia adalah proses pengolahan yang menggunakan bahan kimia untuk mengurangi konsentrasi zat pencemar dalam air limbah. proses ini menggunakan reaksi kimia untuk mengubah air limbah yang berbahaya  menjadi kurang berbahaya (netralisasi)
+        \n <b>3) Pengolahan biologi</b>
+        \n \t Proses pengolahan secara biologis, yaitu dengan melibatkan mikroorganisme yang dapat mengurangi/mendegradasi bahan organik
+        \n \n <b>1) Pengolahan limbah padat</b>
+    </string>
+    <string name="art4_txt3">
+        \n \t Limbah padat dibedakan menjadi 2 jenis yaitu
+        \n 1. Limbah padat yang dapat di daur ulang
+        \n 2. Limbah padat yang tidak punya nilai ekonomis
+        \n <b>Cara: </b>
+        \n 1) Penimbunan
+        \n 2) Pembakaran.
+        \n 3) Komposting
+        \n 4) Daur ulang
+        \n \n <b>4) Pengolahan limbah gas </b>
+    </string>
+    <string name="art4_txt4">
+        \n \t Cara :
+        \n <b>1) Mengontrol emisi gas buang </b>
+        \n \t Gas buang seperti sulfur oksida, nitrogen oksida, karbonmonoksida dan hidrokarbon dapat dikontrol pengeluarannya melalui beberapa metode. Gas sulfur oksida dapat dihilangkan dari udara dengan cara sulfurisasi menggunakan filter basah. Emisi gas buang juga dapat diurai dengan cara mengurangi kegiatan pembakaran bahan bakar atau mulai menggunakan sumber bahan bakar alat alternatif yang lebih sedikit menghasilkan gas buang berupa polutan.
+        \n <b>2) Menghilangkan materi partikulat </b>
+        \n \t Alat yang digunakan adalah :
+        \n 1. Filter udara
+        \n 2. Pengendap siklon
+        \n 3. Filter basah
+    </string>
+
     <string name="back_button">back button</string>
     <string name="mudah_terbakar">mudah terbakar</string>
     <string name="tidak_mudah_terbakar">tidak mudah terbakar</string>

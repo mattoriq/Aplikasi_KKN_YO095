@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
             content1.thumbnail.setImageResource(R.drawable.thumb1)
             content2.thumbnail.setImageResource(R.drawable.thumb2)
             content3.thumbnail.setImageResource(R.drawable.thumb3)
+            content4.thumbnail.setImageResource(R.drawable.thumb4)
             content1.cardView.setOnClickListener {
                 val intent = Intent(this@MainActivity, PageOneActivity::class.java)
                 startActivity(intent)

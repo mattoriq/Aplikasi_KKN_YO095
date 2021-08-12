@@ -13,9 +13,15 @@
         android:theme="@style/Theme.AplikasiKKN">
         <activity android:name=".about.AboutActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".pages.PageSixActivity" />
-        <activity android:name=".pages.PageFiveActivity" />
-        <activity android:name=".pages.PageFourActivity" />
+        <activity android:name=".pages.PageSixActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".pages.PageFiveActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".pages.PageFourActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".pages.PageThreeActivity"
             android:screenOrientation="portrait"

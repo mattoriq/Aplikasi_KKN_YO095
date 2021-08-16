@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import androidx.core.content.ContextCompat
 import com.cappandatiga.aplikasikkn.R
 import com.cappandatiga.aplikasikkn.about.AboutActivity
 import com.cappandatiga.aplikasikkn.databinding.ActivityMainBinding

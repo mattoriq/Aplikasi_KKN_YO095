@@ -4,7 +4,6 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.cappandatiga.aplikasikkn.R
-import com.cappandatiga.aplikasikkn.databinding.ActivityPageFiveBinding
 import com.cappandatiga.aplikasikkn.databinding.ActivityPageSixBinding
 
 class PageSixActivity : AppCompatActivity() {

@@ -9,7 +9,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
-        android:layout_height="240dp"
+        android:layout_height="160dp"
         android:fitsSystemWindows="true">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
@@ -18,14 +18,15 @@
             android:layout_height="match_parent"
             app:layout_scrollFlags="exitUntilCollapsed|scroll"
             app:contentScrim="@color/primary"
-            app:title="@string/title_4">
+            app:title="@string/title_6">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/thumb4"
+                android:contentDescription="@string/banner"
                 android:scaleType="centerCrop"
-                android:contentDescription="@string/banner" />
+                android:scrollY="140dp"
+                android:src="@drawable/h_pic1" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -47,6 +48,31 @@
             android:layout_height="match_parent"
             android:padding="16dp"
             tools:context=".pages.PageOneActivity">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="32dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="@string/title_6"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@color/dark_gray"/>
+
+            <ImageView
+                android:id="@+id/pic_1"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                android:src="@drawable/h_pic1"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/artikel_caca"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -29,10 +29,15 @@ class MainActivity : AppCompatActivity() {
             content4.title.text = getString(R.string.title_4)
             content5.title.text = getString(R.string.title_5)
             content6.title.text = getString(R.string.title_6)
+
             content1.thumbnail.setImageResource(R.drawable.thumb1)
             content2.thumbnail.setImageResource(R.drawable.thumb2)
             content3.thumbnail.setImageResource(R.drawable.thumb3)
             content4.thumbnail.setImageResource(R.drawable.thumb4)
+            content5.thumbnail.setImageResource(R.drawable.thumb5)
+            content6.thumbnail.setImageResource(R.drawable.h_pic1)
+            content6.thumbnail.scrollBy(0, 430)
+
             content1.cardView.setOnClickListener {
                 val intent = Intent(this@MainActivity, PageOneActivity::class.java)
                 startActivity(intent)

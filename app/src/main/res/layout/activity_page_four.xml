@@ -9,7 +9,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
-        android:layout_height="240dp"
+        android:layout_height="180dp"
         android:fitsSystemWindows="true">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
@@ -48,99 +48,100 @@
             android:padding="16dp"
             tools:context=".pages.PageOneActivity">
 
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="@string/title_4"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@color/dark_gray"/>
+
+            <TextView
+                android:id="@+id/description1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="@string/art4_txt1"
+                android:textColor="@color/gray"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/pic1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:paddingTop="4dp"
+                android:src="@drawable/i_pic1"
+                app:layout_constraintTop_toBottomOf="@id/description1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:contentDescription="@string/pupuk_kompos"/>
+
+            <TextView
+                android:id="@+id/description2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/pic1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="@string/art4_txt2"
+                android:textColor="@color/gray"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/pic2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:paddingTop="4dp"
+                android:src="@drawable/i_pic2"
+                app:layout_constraintTop_toBottomOf="@id/description2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:contentDescription="@string/pupuk_kompos"/>
+
+            <TextView
+                android:id="@+id/description3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/pic2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="@string/art4_txt3"
+                android:textColor="@color/gray"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/pic3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:paddingTop="4dp"
+                android:src="@drawable/i_pic3"
+                app:layout_constraintTop_toBottomOf="@id/description3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:contentDescription="@string/pupuk_kompos"/>
+
+            <TextView
+                android:id="@+id/description4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/pic3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="@string/art4_txt4"
+                android:textColor="@color/gray"
+                android:textSize="14sp"/>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <TextView
-            android:id="@+id/title"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:paddingBottom="32dp"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:text="@string/title_4"
-            android:textStyle="bold"
-            android:textSize="24sp"
-            android:textColor="@color/dark_gray"/>
 
-        <TextView
-            android:id="@+id/description1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            app:layout_constraintTop_toBottomOf="@id/title"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:text="@string/art4_txt1"
-            android:textColor="@color/gray"
-            android:textSize="14sp"/>
-
-        <ImageView
-            android:id="@+id/pic1"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:paddingTop="4dp"
-            android:src="@drawable/i_pic1"
-            app:layout_constraintTop_toBottomOf="@id/description1"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:contentDescription="@string/pupuk_kompos"/>
-
-        <TextView
-            android:id="@+id/description2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/pic1"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:text="@string/art4_txt2"
-            android:textColor="@color/gray"
-            android:textSize="14sp"/>
-
-        <ImageView
-            android:id="@+id/pic2"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:paddingTop="4dp"
-            android:src="@drawable/i_pic2"
-            app:layout_constraintTop_toBottomOf="@id/description2"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:contentDescription="@string/pupuk_kompos"/>
-
-        <TextView
-            android:id="@+id/description3"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/pic2"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:text="@string/art4_txt3"
-            android:textColor="@color/gray"
-            android:textSize="14sp"/>
-
-        <ImageView
-            android:id="@+id/pic3"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:paddingTop="4dp"
-            android:src="@drawable/i_pic3"
-            app:layout_constraintTop_toBottomOf="@id/description3"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:contentDescription="@string/pupuk_kompos"/>
-
-        <TextView
-            android:id="@+id/description4"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/pic3"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:text="@string/art4_txt4"
-            android:textColor="@color/gray"
-            android:textSize="14sp"/>
 
     </androidx.core.widget.NestedScrollView>
 

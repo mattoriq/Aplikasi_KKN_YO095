@@ -10,7 +10,7 @@ import com.cappandatiga.aplikasikkn.databinding.ActivitySplashBinding
 import com.cappandatiga.aplikasikkn.home.MainActivity
 
 class SplashActivity : AppCompatActivity() {
-    private var delay = 1900L
+    private var delay = 2000L
     override fun onCreate(savedInstanceState: Bundle?) {
         supportActionBar?.hide()
         super.onCreate(savedInstanceState)

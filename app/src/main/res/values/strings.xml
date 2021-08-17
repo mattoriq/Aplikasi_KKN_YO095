@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Info Sampah KKN Pandatri</string>
-    <string name="video_example">Video example</string>
     <string name="page_title">Page Title</string>
-    <string name="page_desc">this is the basic description of the article test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test</string>
     <string name="content_descriptor">content descriptor</string>
-    <string name="main_page">Main Page</string>
     <string name="title_1">Jenis-Jenis Sampah</string>
     <string name="title_2">Peluang Bisnis dari Pengolahan Sampah</string>
     <string name="title_3">Jenis Plastik dan Cara Mengurangi Sampah Plastik</string>
     <string name="title_4">Penanganan Limbah</string>
     <string name="title_5">Keuntungan Kompos</string>
     <string name="title_6">Ini Rumah Kita Satu-satunya</string>
-    <string name="mountain">mountain</string>
-    <string name="article">Artikel</string>
     <string name="art1_txt1">
         <b>1. Sampah Berdasarkan Bentuknya</b>
         \n <b>a. Sampah Padat</b>
@@ -181,7 +176,6 @@
         \n \t 7. Kompos siap di gunakan
     </string>
 
-    <string name="back_button">back button</string>
     <string name="mudah_terbakar">mudah terbakar</string>
     <string name="tidak_mudah_terbakar">tidak mudah terbakar</string>
     <string name="plastik">plastik</string>

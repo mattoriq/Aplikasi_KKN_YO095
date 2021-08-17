@@ -8,7 +8,6 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/main_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
@@ -27,7 +26,6 @@
         android:contentDescription="@string/logo_kkn"/>
 
     <ImageView
-        android:id="@+id/logo_ugm"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:padding="8dp"

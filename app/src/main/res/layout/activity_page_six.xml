@@ -7,13 +7,11 @@
     tools:context=".pages.PageThreeActivity">
 
     <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:fitsSystemWindows="true">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
-            android:id="@+id/collapsing_bar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_scrollFlags="exitUntilCollapsed|scroll"
@@ -29,7 +27,6 @@
                 android:src="@drawable/h_pic1" />
 
             <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"/>

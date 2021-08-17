@@ -13,29 +13,17 @@
         tools:context=".home.MainActivity"
         android:orientation="vertical">
 
-        <include
-            android:id="@+id/content_1"
-            layout="@layout/page_view"/>
+        <include layout="@layout/page_view"/>
 
-        <include
-            android:id="@+id/content_2"
-            layout="@layout/page_view"/>
+        <include layout="@layout/page_view"/>
 
-        <include
-            android:id="@+id/content_3"
-            layout="@layout/page_view"/>
+        <include layout="@layout/page_view"/>
 
-        <include
-            android:id="@+id/content_4"
-            layout="@layout/page_view"/>
+        <include layout="@layout/page_view"/>
 
-        <include
-            android:id="@+id/content_5"
-            layout="@layout/page_view"/>
+        <include layout="@layout/page_view"/>
 
-        <include
-            android:id="@+id/content_6"
-            layout="@layout/page_view"/>
+        <include layout="@layout/page_view"/>
 
     </LinearLayout>
 
